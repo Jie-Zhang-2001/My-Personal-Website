@@ -1,24 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MenuNav from './component/menu';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Row, Col, BackTop } from 'antd';
+import Blog from './Pages/Blog'
+import About from './Pages/About'
+import Skill from './Pages/Skill'
+import Project from './Pages/Project'
+import './pages.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Row type='flex' justify='center'>
+          <Col xs={24} sm={24} lg={6}>
+            <MenuNav />
+          </Col>
+          <Col xs={24} sm={24} lg={17}>
+            <div className="rightDisplay">
+              <Route path='/blog' component={Blog} />
+              <Route path='/skill' component={Skill} />
+              <Route path='/' exact component={About} />
+              <Route path='/project' component={Project} />
+            </div>
+          </Col>
+        </Row>
+        <BackTop>
+          <div className='backTop'>UP</div>
+        </BackTop>
+
+      </Router>
+
     </div>
   );
 }

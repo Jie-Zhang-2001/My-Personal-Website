@@ -1,0 +1,102 @@
+@import '~antd/dist/antd.css';
+
+.name {
+    text-align: center;
+    font-weight: 700;
+}
+
+.intro h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color:red;
+}
+.intro p{
+    font-size: 1rem;
+    color:black;
+}
+
+.projectItem{
+    position:relative;
+    width:22rem;
+    height:26rem;
+    margin:2rem;
+    border-radius:0.6rem 0.6rem 0.4rem 0.4rem ;
+    border:1px solid #ccc;
+    box-shadow:0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    transition: all 0.5s ease-in;
+    cursor:pointer;
+}
+
+.projectItem:hover{
+    background-color:rgba(0,0,0,0.1);
+}
+
+.projectItem img{
+    width:100%;
+    border-radius:0.6rem 0.6rem 0 0;
+}
+
+.projectItem h1{
+    margin:0;
+    padding-left:0.7rem;
+    padding-top:0.4rem;
+    font-size: 1.3rem;
+}
+
+.projectItem p{
+    padding:1rem;
+    padding-top:0.3rem!important;
+    font-size: 0.9rem;
+}
+
+.learnMore{
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    padding:0.2rem;
+    transform: translateX(-50%);
+    font-size: 1.1rem!important;
+    color:black;
+    text-align: center;
+    cursor:pointer;
+    transition: all 0.5s ease-in;
+}
+
+.learnMore:hover{
+    color:#1088e9;
+}
+
+.backTop {
+  height: 40;
+  width: 40;
+  line-height: 40px;
+  border-radius: .3rem;
+  background-color: #1088e9;
+  color: #fff;
+  text-align: center;
+  font-size: 14;
+}
+
+.blogItem{
+    width:55rem;
+    height:15rem;
+    margin:1.5rem;
+    background-color: #1088e9;
+    border-radius:0.6rem;
+}
+
+.skillItem{
+    width:100%;
+}
+
+.skillItem h1{
+    font-weight: 700;
+    margin-bottom:1rem;
+    font-size: 1.5rem;
+}
+.skillItem p {
+    margin-bottom:2rem;
+    font-size: 1rem;
+}
+
+

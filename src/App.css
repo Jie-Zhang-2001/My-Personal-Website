@@ -1,38 +1,69 @@
-.App {
+@import '~antd/dist/antd.css';
+
+*{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(245,243,244);
+
+}
+
+a{
+  color:gray;
+}
+
+.profile {
+  width:10rem;
+  height:10rem;
+  border-radius: 50%;
+  margin:1rem auto;
+  background: #1088e9;
+}
+
+.ant-menu{
+  background-color: rgb(245,243,244);
+}
+.leftNav .ant-menu .ant-menu-item {
+  text-align: center;
+  font-size:1.1rem;
+  color:black;
+}
+
+.rightDisplay{
+  padding:3rem;
+  font-size: 0.7rem;
+}
+
+
+.contactIcon{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contactIcon>*{
+  color:royalblue;
+  font-size: 2rem;
+  cursor:pointer;
+  transition: all .2s ease-in;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.contactIcon a>*:hover{
+  transform:scale(1.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.anticon-facebook{
+  margin:2rem 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.leftNav p{
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-divider-horizontal.ant-divider-with-text-center::before,
+.ant-divider-horizontal.ant-divider-with-text-center::after
+{
+   border-top: 1px solid #c9bcbb;
 }
+
