@@ -1,4 +1,4 @@
-import React, { useEffect, useState, createContext } from 'react'
+import React, {createContext } from 'react'
 import SkillItem from '../component/SkillItem'
 import { Row, Col, List } from 'antd';
 
@@ -97,7 +97,7 @@ function Skill() {
                     )}
                 />
             </Col>
-            <div className='skillImg'><img src='/image/skills.jpeg'/></div>
+            <div className='skillImg'><img alt='Skills' src='/image/skills.jpeg'/></div>
         </Row>)
 
 }

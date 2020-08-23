@@ -7,7 +7,7 @@ function ProjectItem(props) {
     return (
         <a href={link}>
         <div className='projectItem'>
-            <img src={src}></img>
+            <img alt='Projects' src={src}></img>
             <h1>{title}</h1>
             <p>{desc}</p>
             </div>

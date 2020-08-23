@@ -7,7 +7,7 @@ function BlogItem(props) {
             <div className='blogtitle'>{props.title}</div>
             <div className='date'><CalendarOutlined />  {props.date}</div>
             <div className='blogIntro'>{props.intro}</div>
-            <img className='blogImg' src={props.imgsrc} />
+            <img className='blogImg' alt='Blog' src={props.imgsrc} />
         </div>
         
     )

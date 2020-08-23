@@ -1,11 +1,11 @@
-import React, { createContext, useState, useEffect } from 'react'
+import React from 'react'
 import ProjectItem from '../component/ProjectItem'
 import {Row } from 'antd';
 
-export const ProjectContext = createContext();
+// export const ProjectContext = createContext();
 
 function Project() {
-    const [project, setProject] = useState([]);
+    // const [project, setProject] = useState([]);
 
     const projectList = [
         {
@@ -88,7 +88,7 @@ function Project() {
                     // <ProjectContext.Provider value={{ title: item.title, desc: item.desc, src: item.src }} key={index}>
                     //     <ProjectItem />
                     // </ProjectContext.Provider>
-                    <ProjectItem title={item.title} desc={item.desc} src={item.src} link={item.link} />
+                    <ProjectItem title={item.title} desc={item.desc} src={item.src} link={item.link} key={index} />
                 ))}
             </Row>
         </div>)
