@@ -6,8 +6,31 @@
 }
 body{
   background-color: rgb(245,243,244);
-
+  background-color:white;
+  /* overflow-y: scroll; */
+  /* scrollbar-width: none; /* Firefox */
+  /* -ms-overflow-style: none;  */
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1088e9; 
+  border-radius:4px;
+}
+
+/* body::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+} */
 
 a{
   color:gray;
@@ -23,6 +46,7 @@ a{
 
 .ant-menu{
   background-color: rgb(245,243,244);
+  background-color:#fff;
 }
 .leftNav .ant-menu .ant-menu-item {
   text-align: center;
@@ -31,7 +55,7 @@ a{
 }
 
 .rightDisplay{
-  padding:3rem;
+  padding:3rem 1rem;
   font-size: 0.7rem;
 }
 
@@ -42,7 +66,7 @@ a{
 
 .contactIcon>*{
   color:royalblue;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor:pointer;
   transition: all .2s ease-in;
 }
@@ -53,7 +77,7 @@ a{
 }
 
 
-.anticon-facebook{
+.anticon-file-text{
   margin:2rem 1rem;
 }
 

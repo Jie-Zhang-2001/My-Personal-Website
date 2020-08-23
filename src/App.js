@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <Router>
         <Row type='flex' justify='center'>
-          <Col xs={24} sm={24} lg={6}>
+          <Col xs={24} xl={6}>
             <MenuNav />
           </Col>
-          <Col xs={24} sm={24} lg={17}>
+          <Col xs={24} xl={18}>
             <div className="rightDisplay">
               <Route path='/blog' component={Blog} />
               <Route path='/skill' component={Skill} />

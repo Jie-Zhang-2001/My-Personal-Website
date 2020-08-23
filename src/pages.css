@@ -6,12 +6,12 @@
 }
 
 .intro h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    color:red;
+    color:#1e90ff;
 }
 .intro p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color:black;
 }
 
@@ -49,7 +49,7 @@
     font-size: 0.9rem;
 }
 
-.learnMore{
+/* .learnMore{
     position:absolute;
     bottom:0.4rem;
     left:50%;
@@ -60,11 +60,11 @@
     text-align: center;
     cursor:pointer;
     transition: all 0.5s ease-in;
-}
+} */
 
-.learnMore:hover{
+/* .learnMore:hover{
     color:#1088e9;
-}
+} */
 
 .backTop {
   height: 40;
@@ -78,25 +78,126 @@
 }
 
 .blogItem{
-    width:55rem;
-    height:15rem;
-    margin:1.5rem;
-    background-color: #1088e9;
-    border-radius:0.6rem;
+    overflow:hidden;
+    width:99%;
+    height:18rem;
+    padding:0.4rem 0.4rem 0.2rem 0.4rem;
+    /* margin:1.5rem; */
+    margin:1rem 0;
+    background-color: rgba(255,255,255,0);
+    border-radius: 0.3rem;
+    cursor:pointer;
+    transition: all 0.5s!important;
+}
+
+.moreBlogs{
+    position:absolute;
+    top:1rem;
+    font-size:16px;
+    font-weight:700;
+}
+
+.moreBlogs a{
+    color:#1e90ff;
+}
+
+
+.blogItem:hover {
+    background-color: rgba(124, 117, 117, 0.1);
+}
+
+.blogItem .blogtitle{
+    padding: 0 0.5rem;
+    color:#1e90ff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.blogItem .blogIntro {
+    overflow:hidden;
+    padding:.6rem; 
+    padding-top:0.2rem;
+    font-size: 16px;
+    color:#777;
+}
+
+.blogItem .blogImg{
+    width:100%;
+    border-radius:0.3rem;
+}
+
+.date {
+    margin-left: 0.5rem;
+    font-size:16px;
+}
+
+.skillSection{
+    padding:0 3rem;
 }
 
 .skillItem{
     width:100%;
+    padding:0 3rem;
 }
 
-.skillItem h1{
+
+.language,
+.tool{
     font-weight: 700;
-    margin-bottom:1rem;
-    font-size: 1.5rem;
 }
-.skillItem p {
-    margin-bottom:2rem;
-    font-size: 1rem;
+
+.skillItem .skillName {
+    display:inline-block;
+    width:5rem;
+    font-size:0.9rem;
+}
+
+.skillSection .skillImg{
+    overflow:hidden;
+    position:absolute;
+    bottom:4rem;
+    left:6rem;
+    width:20rem;
+    border-radius:0.3rem;
+}
+
+@media screen and (max-width:1024px){
+    .skillSection .skillImg img{
+        display:none;
+    }
+}
+
+.skillSection .skillImg img{
+    width:100%;
 }
 
 
+.education,
+.experience{
+    padding:1rem 3rem;
+}
+
+.education p{
+    font-size:0.9rem;
+}
+
+.experience .projectDate{
+    font-size:0.8rem;
+}
+
+.experience .projectDesc{
+    font-size:0.8rem;
+}
+
+.education .timelineTitle,
+.experience .timelineTitle{
+    font-size:1.2rem;
+}
+
+.school{
+    font-weight: 700;
+}
+
+.education ol{
+    margin-bottom:0.5rem;
+}

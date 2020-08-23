@@ -1,11 +1,11 @@
 import React from 'react'
-import { LinkedinFilled, FacebookFilled, MailOutlined, GithubOutlined } from '@ant-design/icons';
+import { LinkedinFilled, FileTextOutlined, GithubOutlined } from '@ant-design/icons';
 function ContactIcon() {
     return (
         <div className='contactIcon'>
-            <a href= 'https://www.linkedin.com/in/jie-zhang-54a2b2160/'><LinkedinFilled /></a>
-            <a><FacebookFilled /></a>
-            <a><GithubOutlined /></a>
+            <a title='LinkedIn' href= 'https://www.linkedin.com/in/jie-zhang-54a2b2160/'><LinkedinFilled /></a>
+            <a title='Blog'href='http://www.blog-jz.com'><FileTextOutlined /></a>
+            <a title='Github'href = 'https://github.com/Jie-Zhang-2001'><GithubOutlined /></a>
         </div>
     )
 }
