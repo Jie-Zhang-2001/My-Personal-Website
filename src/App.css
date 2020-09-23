@@ -44,6 +44,11 @@ a{
   background: #1088e9;
 }
 
+.profile img{
+  width:100%;
+  border-radius:50%;
+}
+
 .ant-menu{
   background-color: rgb(245,243,244);
   background-color:#fff;
