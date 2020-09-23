@@ -7,7 +7,7 @@ import {UsergroupDeleteOutlined} from '@ant-design/icons';
 function MenuNav() {
     return (
         <div className="leftNav">
-            <div className='profile'><img src ="/images/profile.png" /></div>
+            <div className='profile'><img src ="/image/profile.png" /></div>
             <h1 className='name'>Jie Zhang</h1>
             <Menu
                 mode="inline"
