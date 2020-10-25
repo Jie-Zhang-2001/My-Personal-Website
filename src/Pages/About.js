@@ -13,7 +13,7 @@ function About() {
 
       <p>
         Prior experience with Java, JavaScript, and Web Development process, I
-        am eager to contribute and acquire knowledge in software engineering
+        am eager to contribute and acquire knowledge in the software engineering
         field.
       </p>
 
