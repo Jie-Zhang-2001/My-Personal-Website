@@ -66,10 +66,6 @@ function About() {
                         Developed an internal tool using Spring Boot, TypeScript, and Elasticsearch to allow designers to efficiently organize Adobe
                         XD files, expediting design mockup requests by over 20%.
                       </li>
-                      <li>
-                        Collaborated with UI designers and a team of 5 software engineers through daily stand-up meetings, resulting in the
-                        completion of the assigned project two weeks before the expected deadline.
-                      </li>
                   </ol>
             </Timeline.Item>
             <Timeline.Item>
@@ -77,19 +73,12 @@ function About() {
               <p className="projectDate">
                 <CalendarOutlined /> Jan. 2021 - June. 2021
               </p>
-              <ol>
+              <ul>
                       <li>
                           Supported over 120 students in understanding the fundamentals of data structures and algorithms, along with
                           various paradigms and techniques of programming.
                       </li>
-                      <li>
-                          Hosted weekly recitations that guided undergraduate students in debugging and optimizing their programs.
-                      </li>
-                      <li>
-                          Worked closely with the professor to facilitate student learning and engagement through weekly office hours and resolved
-                          additional concerns through discussion boards and emails.
-                      </li>
-                  </ol>
+                  </ul>
             </Timeline.Item>
           </Timeline>
         </Col>
