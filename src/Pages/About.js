@@ -7,13 +7,13 @@ function About() {
     <div className="intro">
       <h1>Welcome!</h1>
       <p>
-        I am currently a sophomore student at Stony Brook University pursuing a
-        bachelor of science degree in Computer Science.
+        I am currently a Junior student at Stony Brook University pursuing a
+        Bachelor of Science degree in Computer Science.
       </p>
 
       <p>
-        Prior experience with Java, JavaScript, and Web Development process, I
-        am eager to contribute and acquire knowledge in the software engineering
+        Prior experience with Java, JavaScript, and Web Development, I
+        am eager to contribute and acquire knowledge in the Software Engineering
         field.
       </p>
 
@@ -39,12 +39,7 @@ function About() {
                                 Math Courses (Linear Algebra, Calculus...)
                               </li>
                           </ol>
-              <h4>GPA: 3.89 / 4.0</h4>
-            </Timeline.Item>
-            <Timeline.Item>
-              <h3 className="school">Brooklyn Technical High School</h3>
-              <p>2015 - 2019 Mechatronics and Robotics</p>
-              <p>GPA: 4.0</p>
+              <h4>GPA: 3.93 / 4.0</h4>
             </Timeline.Item>
           </Timeline>
         </Col>
