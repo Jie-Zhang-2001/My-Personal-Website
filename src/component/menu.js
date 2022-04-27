@@ -17,7 +17,7 @@ function MenuNav() {
                     <NavLink to='/'>About</NavLink>
                 </Menu.Item>
                 <Menu.Item key="2" >
-                    <NavLink to='/project'>Projects </NavLink>
+                    <NavLink to='/project'>Project </NavLink>
                 </Menu.Item>
                 <Menu.Item key="3">
                     <NavLink to='/skill'>Skill </NavLink>
@@ -25,10 +25,12 @@ function MenuNav() {
                 <Menu.Item key="4">
                     <NavLink to='/blog'>Blog </NavLink>
                 </Menu.Item>
+                <Menu.Item key="5">
+                    <NavLink to='/resume'>Resume </NavLink>
+                </Menu.Item>
             </Menu>
             <Divider><UsergroupDeleteOutlined /></Divider>
             <ContactIcon />
-            <p>Copyright © 2020 Jie Zhang</p>
         </div>
     )
 }

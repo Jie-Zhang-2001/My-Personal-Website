@@ -83,7 +83,7 @@ function About() {
           </Timeline>
         </Col>
         <Col xs={24} lg={8} className="experience">
-          <h1 className="timelineTitle">Projects </h1>
+          <h1 className="timelineTitle">Project </h1>
           <Timeline pending="Please visit Projects for more...">
             <Timeline.Item>
               <h3>Content Management System / Personal Blog Site</h3>

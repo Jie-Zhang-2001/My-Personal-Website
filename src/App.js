@@ -7,6 +7,7 @@ import Blog from './Pages/Blog'
 import About from './Pages/About'
 import Skill from './Pages/Skill'
 import Project from './Pages/Project'
+import Resume from './Pages/Resume'
 import './pages.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               <Route path='/skill' component={Skill} />
               <Route path='/' exact component={About} />
               <Route path='/project' component={Project} />
+              <Route path='/resume' component={Resume} />
             </div>
           </Col>
         </Row>

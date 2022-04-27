@@ -74,6 +74,7 @@ a{
   font-size: 1.5rem;
   cursor:pointer;
   transition: all .2s ease-in;
+  margin: 1rem;
 }
 
 
