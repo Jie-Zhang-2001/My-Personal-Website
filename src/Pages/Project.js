@@ -69,6 +69,24 @@ function Project() {
             src: '/image/restaurant.jpeg',
             link:'https://github.com/Jie-Zhang-2001/Restaurant-Simulation'
         },
+        {
+            title: 'User Instruction',
+            desc: 'A detailed instruction of how to make tea...',
+            src: '/image/create.jpeg',
+            link: '/image/CSE_300_User_Instruction.pdf'
+        },
+        {
+            title: 'Press Release',
+            desc: 'News about the release of Nintendo Switch OLED...',
+            src: '/image/game.jpeg',
+            link: '/image/CSE_300_Press_Release.pdf'
+        },
+        {
+            title: 'Problem Solving Project',
+            desc: 'Worked with a team of students on solving zoom meeting issues.',
+            src: '/image/game.jpeg',
+            link: '/image/CSE_300_Press_Release.pdf'
+        }
 
     ]
     // useEffect(() => {
